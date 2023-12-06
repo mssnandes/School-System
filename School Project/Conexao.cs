@@ -11,10 +11,10 @@ namespace School_Project
     {
         public static SqlConnection conn;
         public static string conexao =
-            @"Data Source=DESKTOP-02R5M43\SQLEXPRESS;
+            @"Data Source=SJC0557972W10-1;
                 Initial Catalog = SchoolSys;
                 User Id = sa;
-                Password = 03sesiom";
+                Password = Senac123";
 
         public static void Conectar()
         {
