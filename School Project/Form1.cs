@@ -43,21 +43,6 @@ namespace School_Project
             this.BackColor = Color.FromArgb(1, 89, 88);
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
-
         private void pictureBox1_Click_1(object sender, EventArgs e)
         {
             try
@@ -109,21 +94,6 @@ namespace School_Project
             {
                 MessageBox.Show("Erro: " + ex.Message);
             }
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void btnMostarSenha_Click(object sender, EventArgs e)

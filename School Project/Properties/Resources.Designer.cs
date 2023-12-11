@@ -373,6 +373,16 @@ namespace School_Project.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap perfil_picture {
+            get {
+                object obj = ResourceManager.GetObject("perfil_picture", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap poder {
             get {
                 object obj = ResourceManager.GetObject("poder", resourceCulture);

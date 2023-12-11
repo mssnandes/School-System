@@ -58,7 +58,6 @@
     <Compile Include="cadColaborador.Designer.cs">
       <DependentUpon>cadColaborador.cs</DependentUpon>
     </Compile>
-    <Compile Include="Colaborador.cs" />
     <Compile Include="Conexao.cs" />
     <Compile Include="consultarNotas.cs">
       <SubType>Form</SubType>
@@ -246,6 +245,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\procurando.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perfil_picture.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
