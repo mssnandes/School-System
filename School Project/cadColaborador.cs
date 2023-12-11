@@ -4,6 +4,8 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,6 +18,23 @@ namespace School_Project
         public cadColaborador()
         {
             InitializeComponent();
+            ArredondarPictureBox(picPerfilCol);
+        }
+
+        byte[] perfilFoto;
+
+
+        private void ArredondarPictureBox(PictureBox pictureBox)
+        {
+            // Criar um caminho de gráficos que representa uma elipse (círculo)
+            GraphicsPath path = new GraphicsPath();
+            path.AddEllipse(0, 0, pictureBox.Width, pictureBox.Height);
+
+            // Criar uma região com o caminho da elipse
+            Region region = new Region(path);
+
+            // Atribuir a região à PictureBox
+            pictureBox.Region = region;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -42,11 +61,12 @@ namespace School_Project
             {
                 Conexao.Conectar();
 
-                string sql = @"INSERT INTO school.loginUser (nomeUsuario, senhaUsuario)
-                    VALUES (@nome, @senha)";
+                string sql = @"INSERT INTO school.loginUser (nomeUsuario, senhaUsuario, fotoUsuario)
+                    VALUES (@nome, @senha, @foto)";
                 SqlCommand cmd = new SqlCommand(sql, Conexao.conn);
                 cmd.Parameters.AddWithValue("nome", txtUsuario.Text);
                 cmd.Parameters.AddWithValue("senha", txtSenha.Text);
+                cmd.Parameters.AddWithValue("foto", perfilFoto);
 
                 cmd.ExecuteNonQuery();
 
@@ -57,6 +77,24 @@ namespace School_Project
             catch (Exception ex)
             {
                 MessageBox.Show("Erro: " + ex.Message);
+            }
+        }
+
+        private void picPerfilCol_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+
+            openFileDialog.Filter = "Imagens (*.jpg;*.png;*.jpeg|*.jpg;*.png;*.jpeg";
+
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+
+            {
+
+                string caminhoArquivo = openFileDialog.FileName;
+
+                perfilFoto = File.ReadAllBytes(caminhoArquivo);
+
+                picPerfilCol.Image = System.Drawing.Image.FromFile(caminhoArquivo);
             }
         }
     }

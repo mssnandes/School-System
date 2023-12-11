@@ -118,6 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Barra de Texto 31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra de Texto 31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Botão Mostrar Senha Pequeno" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Botão Mostrar Senha Pequeno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -139,14 +142,14 @@
   <data name="Botão Mostrar Senha1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Botão Mostrar Senha1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Barra Lateral 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra Lateral 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão Ocultar Senha Pequeno com Cor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão Ocultar Senha Pequeno com Cor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Barra Texto 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Barra Texto 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Logo SchooSys com Sombra 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logo SchooSys com Sombra 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Botão Mostrar Senha Pequeno1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Botão Mostrar Senha Pequeno1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Botão Mostrar Senha Pequeno com Cor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Botão Mostrar Senha Pequeno com Cor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,14 +157,8 @@
   <data name="Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Background 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Background 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Barra de Texto 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Barra de Texto 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Barra Lateral 21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Barra Lateral 21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Logo SchooSys" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo SchooSys.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,8 +172,11 @@
   <data name="Logo SchooSys com Sombra 5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo SchooSys com Sombra 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Background 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Background 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Logo SchooSys 21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo SchooSys 21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão Entrar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão Entrar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="vire-a-esquerda" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vire-a-esquerda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,20 +190,23 @@
   <data name="Barra Lateral 5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Barra Lateral 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="procurando" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\procurando.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Background 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Background 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Barra Lateral Degradê" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Barra Lateral Degradê.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Logo SchooSys 21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logo SchooSys 21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Botão Mostrar Senha Pequeno1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão Mostrar Senha Pequeno1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Botão Entrar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Botão Entrar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Background 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Background 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Botão Ocultar Senha Pequeno com Cor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Botão Ocultar Senha Pequeno com Cor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Background 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Background 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Background 5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Background 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,13 +223,13 @@
   <data name="poder (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\poder (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Barra de Texto 31" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Barra de Texto 31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Logo SchooSys com Sombra 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo SchooSys com Sombra 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Barra Lateral 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Barra Lateral 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Barra Lateral 21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra Lateral 21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="procurando" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\procurando.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="perfil_picture" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\perfil_picture.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
