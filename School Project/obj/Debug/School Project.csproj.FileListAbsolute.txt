@@ -1,0 +1,86 @@
+C:\Users\lucas.gssilva2\source\repos\PROJETOS\SCHOOL PROJECT\School Project\School Project\bin\Debug\School Project.exe.config
+C:\Users\lucas.gssilva2\source\repos\PROJETOS\SCHOOL PROJECT\School Project\School Project\bin\Debug\School Project.exe
+C:\Users\lucas.gssilva2\source\repos\PROJETOS\SCHOOL PROJECT\School Project\School Project\bin\Debug\School Project.pdb
+C:\Users\lucas.gssilva2\source\repos\PROJETOS\SCHOOL PROJECT\School Project\School Project\obj\Debug\School Project.csproj.AssemblyReference.cache
+C:\Users\lucas.gssilva2\source\repos\PROJETOS\SCHOOL PROJECT\School Project\School Project\obj\Debug\School Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\lucas.gssilva2\source\repos\PROJETOS\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.Properties.Resources.resources
+C:\Users\lucas.gssilva2\source\repos\PROJETOS\SCHOOL PROJECT\School Project\School Project\obj\Debug\School Project.csproj.GenerateResource.cache
+C:\Users\lucas.gssilva2\source\repos\PROJETOS\SCHOOL PROJECT\School Project\School Project\obj\Debug\School Project.csproj.CoreCompileInputs.cache
+C:\Users\lucas.gssilva2\source\repos\PROJETOS\SCHOOL PROJECT\School Project\School Project\obj\Debug\School Project.exe
+C:\Users\lucas.gssilva2\source\repos\PROJETOS\SCHOOL PROJECT\School Project\School Project\obj\Debug\School Project.pdb
+C:\Users\lucas.gssilva2\source\repos\PROJETOS\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.formTelaDeLogin.resources
+C:\Users\lucas.gssilva2\source\repos\PROJETOS\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.formMenu.resources
+C:\Users\lucas.gssilva2\source\repos\PROJETOS\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.formTelaCadastro.resources
+A:\LUCAS GABRIEL - AUDIOVISUAL\Projeto SchoolSys\SCHOOL PROJECT\School Project\School Project\bin\Debug\School Project.exe.config
+A:\LUCAS GABRIEL - AUDIOVISUAL\Projeto SchoolSys\SCHOOL PROJECT\School Project\School Project\bin\Debug\School Project.exe
+A:\LUCAS GABRIEL - AUDIOVISUAL\Projeto SchoolSys\SCHOOL PROJECT\School Project\School Project\bin\Debug\School Project.pdb
+A:\LUCAS GABRIEL - AUDIOVISUAL\Projeto SchoolSys\SCHOOL PROJECT\School Project\School Project\obj\Debug\School Project.csproj.AssemblyReference.cache
+A:\LUCAS GABRIEL - AUDIOVISUAL\Projeto SchoolSys\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.Properties.Resources.resources
+A:\LUCAS GABRIEL - AUDIOVISUAL\Projeto SchoolSys\SCHOOL PROJECT\School Project\School Project\obj\Debug\School Project.csproj.GenerateResource.cache
+A:\LUCAS GABRIEL - AUDIOVISUAL\Projeto SchoolSys\SCHOOL PROJECT\School Project\School Project\obj\Debug\School Project.csproj.CoreCompileInputs.cache
+A:\LUCAS GABRIEL - AUDIOVISUAL\Projeto SchoolSys\SCHOOL PROJECT\School Project\School Project\obj\Debug\School Project.exe
+A:\LUCAS GABRIEL - AUDIOVISUAL\Projeto SchoolSys\SCHOOL PROJECT\School Project\School Project\obj\Debug\School Project.pdb
+C:\Users\lucas.gssilva2\source\repos\PROJETOS\SCHOOLSYS\SCHOOL PROJECT\School Project\School Project\bin\Debug\School Project.exe.config
+C:\Users\lucas.gssilva2\source\repos\PROJETOS\SCHOOLSYS\SCHOOL PROJECT\School Project\School Project\bin\Debug\School Project.exe
+C:\Users\lucas.gssilva2\source\repos\PROJETOS\SCHOOLSYS\SCHOOL PROJECT\School Project\School Project\bin\Debug\School Project.pdb
+C:\Users\lucas.gssilva2\source\repos\PROJETOS\SCHOOLSYS\SCHOOL PROJECT\School Project\School Project\obj\Debug\School Project.csproj.AssemblyReference.cache
+C:\Users\lucas.gssilva2\source\repos\PROJETOS\SCHOOLSYS\SCHOOL PROJECT\School Project\School Project\obj\Debug\School Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\lucas.gssilva2\source\repos\PROJETOS\SCHOOLSYS\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.Properties.Resources.resources
+C:\Users\lucas.gssilva2\source\repos\PROJETOS\SCHOOLSYS\SCHOOL PROJECT\School Project\School Project\obj\Debug\School Project.csproj.GenerateResource.cache
+C:\Users\lucas.gssilva2\source\repos\PROJETOS\SCHOOLSYS\SCHOOL PROJECT\School Project\School Project\obj\Debug\School Project.csproj.CoreCompileInputs.cache
+C:\Users\lucas.gssilva2\source\repos\PROJETOS\SCHOOLSYS\SCHOOL PROJECT\School Project\School Project\obj\Debug\School Project.exe
+C:\Users\lucas.gssilva2\source\repos\PROJETOS\SCHOOLSYS\SCHOOL PROJECT\School Project\School Project\obj\Debug\School Project.pdb
+C:\Users\lucas.gssilva2\source\repos\PROJETOS\SCHOOLSYS\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaCadastrosAlunos.resources
+C:\Users\lucas.gssilva2\source\repos\PROJETOS\SCHOOLSYS\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaDeLogin.resources
+C:\Users\lucas.gssilva2\source\repos\PROJETOS\SCHOOLSYS\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaCadastrosAcessos.resources
+C:\Users\lucas.gssilva2\source\repos\PROJETOS\SCHOOLSYS\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaCadastros.resources
+C:\Users\lucas.gssilva2\source\repos\PROJETOS\SCHOOLSYS\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaMenu.resources
+A:\LUCAS GABRIEL - AUDIOVISUAL\Projeto SchoolSys\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaCadastrosAlunos.resources
+A:\LUCAS GABRIEL - AUDIOVISUAL\Projeto SchoolSys\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaDeLogin.resources
+A:\LUCAS GABRIEL - AUDIOVISUAL\Projeto SchoolSys\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaCadastrosAcessos.resources
+A:\LUCAS GABRIEL - AUDIOVISUAL\Projeto SchoolSys\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaCadastros.resources
+A:\LUCAS GABRIEL - AUDIOVISUAL\Projeto SchoolSys\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaMenu.resources
+A:\LUCAS GABRIEL - AUDIOVISUAL\Projeto SchoolSys\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaPesquisa.resources
+A:\LUCAS GABRIEL - AUDIOVISUAL\Projeto SchoolSys\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaPesquisarAcessos.resources
+A:\LUCAS GABRIEL - AUDIOVISUAL\Projeto SchoolSys\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaPesquisarAlunos.resources
+A:\LUCAS GABRIEL - AUDIOVISUAL\Projeto SchoolSys\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaNotasFrequências.resources
+A:\LUCAS GABRIEL - AUDIOVISUAL\Projeto SchoolSys\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaPesquisarNotasFrequencias.resources
+C:\Users\user\source\repos\SCHOOL PROJECT\School Project\School Project\bin\Debug\School Project.exe.config
+C:\Users\user\source\repos\SCHOOL PROJECT\School Project\School Project\bin\Debug\School Project.exe
+C:\Users\user\source\repos\SCHOOL PROJECT\School Project\School Project\bin\Debug\School Project.pdb
+C:\Users\user\source\repos\SCHOOL PROJECT\School Project\School Project\obj\Debug\School Project.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaCadastrosAlunos.resources
+C:\Users\user\source\repos\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaDeLogin.resources
+C:\Users\user\source\repos\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.Properties.Resources.resources
+C:\Users\user\source\repos\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaCadastrosAcessos.resources
+C:\Users\user\source\repos\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaCadastros.resources
+C:\Users\user\source\repos\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaMenu.resources
+C:\Users\user\source\repos\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaNotasFrequências.resources
+C:\Users\user\source\repos\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaPesquisa.resources
+C:\Users\user\source\repos\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaPesquisarAcessos.resources
+C:\Users\user\source\repos\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaPesquisarAlunos.resources
+C:\Users\user\source\repos\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaPesquisarNotasFrequencias.resources
+C:\Users\user\source\repos\SCHOOL PROJECT\School Project\School Project\obj\Debug\School Project.csproj.GenerateResource.cache
+C:\Users\user\source\repos\SCHOOL PROJECT\School Project\School Project\obj\Debug\School Project.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\SCHOOL PROJECT\School Project\School Project\obj\Debug\School Project.exe
+C:\Users\user\source\repos\SCHOOL PROJECT\School Project\School Project\obj\Debug\School Project.pdb
+C:\Users\marcos.vfaria1\source\repos\SCHOOL PROJECT V1.0\SCHOOL PROJECT\School Project\School Project\obj\Debug\School Project.csproj.AssemblyReference.cache
+C:\Users\marcos.vfaria1\source\repos\SCHOOL PROJECT V1.0\SCHOOL PROJECT\School Project\School Project\obj\Debug\School Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\marcos.vfaria1\source\repos\SCHOOL PROJECT V1.0\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaCadastrosAlunos.resources
+C:\Users\marcos.vfaria1\source\repos\SCHOOL PROJECT V1.0\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaDeLogin.resources
+C:\Users\marcos.vfaria1\source\repos\SCHOOL PROJECT V1.0\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.Properties.Resources.resources
+C:\Users\marcos.vfaria1\source\repos\SCHOOL PROJECT V1.0\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaCadastrosAcessos.resources
+C:\Users\marcos.vfaria1\source\repos\SCHOOL PROJECT V1.0\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaCadastros.resources
+C:\Users\marcos.vfaria1\source\repos\SCHOOL PROJECT V1.0\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaMenu.resources
+C:\Users\marcos.vfaria1\source\repos\SCHOOL PROJECT V1.0\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaNotasFrequências.resources
+C:\Users\marcos.vfaria1\source\repos\SCHOOL PROJECT V1.0\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaPesquisa.resources
+C:\Users\marcos.vfaria1\source\repos\SCHOOL PROJECT V1.0\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaPesquisarAcessos.resources
+C:\Users\marcos.vfaria1\source\repos\SCHOOL PROJECT V1.0\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaPesquisarAlunos.resources
+C:\Users\marcos.vfaria1\source\repos\SCHOOL PROJECT V1.0\SCHOOL PROJECT\School Project\School Project\obj\Debug\School_Project.frmTelaPesquisarNotasFrequencias.resources
+C:\Users\marcos.vfaria1\source\repos\SCHOOL PROJECT V1.0\SCHOOL PROJECT\School Project\School Project\obj\Debug\School Project.csproj.GenerateResource.cache
+C:\Users\marcos.vfaria1\source\repos\SCHOOL PROJECT V1.0\SCHOOL PROJECT\School Project\School Project\obj\Debug\School Project.csproj.CoreCompileInputs.cache
+C:\Users\marcos.vfaria1\source\repos\SCHOOL PROJECT V1.0\SCHOOL PROJECT\School Project\School Project\obj\Debug\School Project.exe
+C:\Users\marcos.vfaria1\source\repos\SCHOOL PROJECT V1.0\SCHOOL PROJECT\School Project\School Project\obj\Debug\School Project.pdb
+C:\Users\marcos.vfaria1\source\repos\SCHOOL PROJECT V1.0\SCHOOL PROJECT\School Project\School Project\bin\Debug\School Project.exe.config
+C:\Users\marcos.vfaria1\source\repos\SCHOOL PROJECT V1.0\SCHOOL PROJECT\School Project\School Project\bin\Debug\School Project.exe
+C:\Users\marcos.vfaria1\source\repos\SCHOOL PROJECT V1.0\SCHOOL PROJECT\School Project\School Project\bin\Debug\School Project.pdb
