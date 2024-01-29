@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Botão Ocultar Senha Pequeno com Cor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão Ocultar Senha Pequeno com Cor1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra-Estado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra-Estado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="view" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\view.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ícone-Cadastros-de-Acessos-Apagado1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ícone-Cadastros-de-Acessos-Apagado1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão Mostrar Senha Pequeno com Cor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão Mostrar Senha Pequeno com Cor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra-de-Texto-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra-de-Texto-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barras 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barras 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra-Cadastros-Alunos-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra-Cadastros-Alunos-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Background 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Background 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra-Nome" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra-Nome.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra de Texto 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra de Texto 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra-Cadastro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra-Cadastro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão-Ícone-Cadastros-Desopaco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão-Ícone-Cadastros-Desopaco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ícone-Sair-Aceso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ícone-Sair-Aceso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tela de Menu1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tela de Menu1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra Lateral 5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra Lateral 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra-Nascimento" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra-Nascimento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo SchooSys com Sombra 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo SchooSys com Sombra 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra Lateral 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra Lateral 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra de Texto 31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra de Texto 31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ícone-Voltar-Aceso1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ícone-Voltar-Aceso1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Background 5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Background 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra-Cadastros-Alunos-31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra-Cadastros-Alunos-31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão Entrar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão Entrar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ícone-Voltar-Aceso2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ícone-Voltar-Aceso2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão Cadastros Desopaco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão Cadastros Desopaco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão Mostrar Senha Pequeno com Cor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão Mostrar Senha Pequeno com Cor1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra-Cadastro-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra-Cadastro-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MicrosoftTeams-image (7)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MicrosoftTeams-image (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra-de-Texto-51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra-de-Texto-51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo SchooSys 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo SchooSys 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão Sair Desopaco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão Sair Desopaco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ícone-Pesquisar-Aceso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ícone-Pesquisar-Aceso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Background 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Background 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra-de-Texto-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra-de-Texto-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo SchooSys com Sombra 21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo SchooSys com Sombra 21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra Lateral 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra Lateral 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra-Cep" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra-Cep.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pesquisar-Pequeno-Nitido" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pesquisar-Pequeno-Nitido.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Notas-Frequencias-Pequeno-Nitido" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Notas-Frequencias-Pequeno-Nitido.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra-Cpf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra-Cpf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra-Cadastros-Alunos1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra-Cadastros-Alunos1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra-Cidade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra-Cidade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra-de-Texto-6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra-de-Texto-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Background 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Background 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra-Cadastros-Alunos-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra-Cadastros-Alunos-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ícone-NotasFrequêcias-Aceso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ícone-NotasFrequêcias-Aceso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra de Texto 22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra de Texto 22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão Mostrar Senha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão Mostrar Senha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ícone-Cadastros-de-Acessos-Apagado2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ícone-Cadastros-de-Acessos-Apagado2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra de Texto 21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra de Texto 21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bola-de-Foto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bola-de-Foto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ícone-Pesquisa-Acessos-Aceso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ícone-Pesquisa-Acessos-Aceso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo SchooSys com Sombra 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo SchooSys com Sombra 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ícone-Cadastros-de-Alunos-Apagado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ícone-Cadastros-de-Alunos-Apagado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra-Cadastro3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra-Cadastro3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão Notas e Frequências Desopaco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão Notas e Frequências Desopaco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra-Cadastros-Alunos2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra-Cadastros-Alunos2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cadastros-Pequeno-Ntitido" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cadastros-Pequeno-Ntitido.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão Cadastros Opaco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão Cadastros Opaco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão Pesquisar Desopaco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão Pesquisar Desopaco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra-Cadastro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra-Cadastro1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo SchooSys com Sombra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo SchooSys com Sombra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Background-102" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Background-102.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra-de-Texto-7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra-de-Texto-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Background-6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Background-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Background-7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Background-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo SchooSys com Sombra 6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo SchooSys com Sombra 6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo SchooSys com Sombra 5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo SchooSys com Sombra 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão-Sair-Completamente" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão-Sair-Completamente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barras" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo SchooSys com Sombra 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo SchooSys com Sombra 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ícone-Pesquisa-Alunos-Aceso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ícone-Pesquisa-Alunos-Aceso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão-Ícone-Cadastros-Acessos-Opaco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão-Ícone-Cadastros-Acessos-Opaco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão-Ícone-Cadastros-Desopaco-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão-Ícone-Cadastros-Desopaco-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão Ocultar Senha Pequeno com Cor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão Ocultar Senha Pequeno com Cor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ícone-Voltar-Aceso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ícone-Voltar-Aceso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo SchooSys" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo SchooSys.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra-Cadastros-Alunos-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra-Cadastros-Alunos-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão Mostrar Senha Pequeno1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão Mostrar Senha Pequeno1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra-Telefone-Residencial" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra-Telefone-Residencial.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ícone-Voltar-Apagado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ícone-Voltar-Apagado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Background-8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Background-8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão-Entrar-2," type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão-Entrar-2,.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra Lateral 21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra Lateral 21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra Lateral Degradê" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra Lateral Degradê.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra Texto 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra Texto 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Background-9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Background-9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra-de-Texto-71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra-de-Texto-71.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra de Texto 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra de Texto 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão Ocultar Senha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão Ocultar Senha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão Mostrar Senha1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão Mostrar Senha1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barras1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barras1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão Mostrar Senha Pequeno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão Mostrar Senha Pequeno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão-Ícone-Cadastros-Acessos-Desopaco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão-Ícone-Cadastros-Acessos-Desopaco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sair-Pequeno-Ntitido" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sair-Pequeno-Ntitido.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ícone-Cadastros-de-Acessos-Apagado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ícone-Cadastros-de-Acessos-Apagado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra-Número" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra-Número.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ícone-Cadastros-de-Alunos-Aceso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ícone-Cadastros-de-Alunos-Aceso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra-de-Texto-52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra-de-Texto-52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Background-10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Background-10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra-Cadastros-Alunos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra-Cadastros-Alunos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tela de Menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tela de Menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo SchooSys 21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo SchooSys 21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ícone-Cadastros-de-Acessos-Aceso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ícone-Cadastros-de-Acessos-Aceso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra-Nascimento1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra-Nascimento1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão Ocultar Senha Pequeno com Cor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão Ocultar Senha Pequeno com Cor2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ícone-Cadastros-Aceso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ícone-Cadastros-Aceso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Background-101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Background-101.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ícone-Pesquisar-Notas-Frequências-Aceso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ícone-Pesquisar-Notas-Frequências-Aceso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
