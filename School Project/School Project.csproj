@@ -1,0 +1,692 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B544069E-6A41-416F-BA33-3F1A0F76C7D2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>School_Project</RootNamespace>
+    <AssemblyName>School Project</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Alunos.cs" />
+    <Compile Include="Conexao.cs" />
+    <Compile Include="Connected Services\ServiceReference1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="TelaCadastrosAlunos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaCadastrosAlunos.Designer.cs">
+      <DependentUpon>TelaCadastrosAlunos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaLogin.Designer.cs">
+      <DependentUpon>TelaLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TelaCadastrosAcessos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaCadastrosAcessos.Designer.cs">
+      <DependentUpon>TelaCadastrosAcessos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaCadastros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaCadastros.Designer.cs">
+      <DependentUpon>TelaCadastros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaMenu.Designer.cs">
+      <DependentUpon>TelaMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaNotasFrequências.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaNotasFrequências.Designer.cs">
+      <DependentUpon>TelaNotasFrequências.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaPesquisa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaPesquisa.Designer.cs">
+      <DependentUpon>TelaPesquisa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaPesquisarAcessos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaPesquisarAcessos.Designer.cs">
+      <DependentUpon>TelaPesquisarAcessos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaPesquisarAlunos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaPesquisarAlunos.Designer.cs">
+      <DependentUpon>TelaPesquisarAlunos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaPesquisarNotasFrequências.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaPesquisarNotasFrequências.Designer.cs">
+      <DependentUpon>TelaPesquisarNotasFrequências.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils.cs" />
+    <EmbeddedResource Include="TelaCadastrosAlunos.resx">
+      <DependentUpon>TelaCadastrosAlunos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaLogin.resx">
+      <DependentUpon>TelaLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="TelaCadastrosAcessos.resx">
+      <DependentUpon>TelaCadastrosAcessos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaCadastros.resx">
+      <DependentUpon>TelaCadastros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaMenu.resx">
+      <DependentUpon>TelaMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaNotasFrequências.resx">
+      <DependentUpon>TelaNotasFrequências.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPesquisa.resx">
+      <DependentUpon>TelaPesquisa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPesquisarAcessos.resx">
+      <DependentUpon>TelaPesquisarAcessos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPesquisarAlunos.resx">
+      <DependentUpon>TelaPesquisarAlunos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPesquisarNotasFrequências.resx">
+      <DependentUpon>TelaPesquisarNotasFrequências.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Connected Services\ServiceReference1\AtendeClienteService.wsdl" />
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.atualizaPagamentoNaEntregaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.atualizaRemessaAgrupadaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.bloquearObjetoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.buscaClienteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.buscaContratoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.buscaDataAtualResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.buscaOpcoesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.buscaPagamentoEntregaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.buscaServicosAdicionaisAtivosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.buscaServicosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.buscaServicosValorDeclaradoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.buscaServicosXServicosAdicionaisResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.buscaTarifaValeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.calculaTarifaServicoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.cancelarObjetoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.cancelarPedidoScolResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.clienteERP.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.consultaCEPResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.contratoERP.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.dimensaoTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.embalagemLRSMaster.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.enderecoERP.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.fechaPlpResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.fechaPlpVariosServicosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.geraDigitoVerificadorEtiquetasResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.getStatusCartaoPostagemResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.getStatusPLPResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.integrarUsuarioScolResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.mensagemParametrizadaTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.obterClienteAtualizacaoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.obterEmbalagemLRSResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.obterMensagemParametrizadaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.pesquisarDimensoesServicoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.pesquisarEmbalagensPorServicoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.pesquisarParametrosPorDescricaoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.pesquisarServicosAdicionaisResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.retornoCancelamento.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.servicoAdicionalTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.servicoAdicionalXML.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.servicoERP.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.solicitaEtiquetasResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.solicitaPLPResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.solicitarPostagemScolResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.solicitaXmlPlpResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.statusCartao.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.statusPlp.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.tipoEmbalagem.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.valePostal.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.validaEtiquetaPLPResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.validaPlpResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.validarPostagemReversaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.validarPostagemSimultaneaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.verificaDisponibilidadeServicoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.verificaModalTransporteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference1\School_Project.ServiceReference1.VerificaSeTodosObjetosCanceladosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra Lateral 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra Lateral 21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra Lateral 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra Lateral Degradê.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra Lateral 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra Texto 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra de Texto 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra de Texto 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra de Texto 31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão Entrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo SchooSys.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo SchooSys 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo SchooSys com Sombra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo SchooSys com Sombra 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo SchooSys com Sombra 21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo SchooSys com Sombra 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo SchooSys com Sombra 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo SchooSys com Sombra 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo SchooSys com Sombra 6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo SchooSys 21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão Mostrar Senha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão Mostrar Senha1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão Mostrar Senha Pequeno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão Mostrar Senha Pequeno1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão Mostrar Senha Pequeno com Cor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão Ocultar Senha Pequeno com Cor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MicrosoftTeams-image %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão Mostrar Senha Pequeno com Cor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão Ocultar Senha Pequeno com Cor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tela de Menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão Cadastros Opaco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão Cadastros Desopaco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão Notas e Frequências Desopaco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão Pesquisar Desopaco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão Sair Desopaco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tela de Menu1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão-Ícone-Cadastros-Desopaco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão-Ícone-Cadastros-Acessos-Opaco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barras1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão-Ícone-Cadastros-Acessos-Desopaco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão-Ícone-Cadastros-Desopaco-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-Cadastros-Alunos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-Cadastros-Alunos1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-Cadastros-Alunos2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-Cadastros-Alunos-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-Cadastros-Alunos-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-Cadastros-Alunos-31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-Cadastros-Alunos-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra de Texto 21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra de Texto 22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão-Entrar-2,.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cadastros-Pequeno-Ntitido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notas-Frequencias-Pequeno-Nitido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pesquisar-Pequeno-Nitido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sair-Pequeno-Ntitido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ícone-Cadastros-Aceso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ícone-NotasFrequêcias-Aceso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ícone-Pesquisar-Aceso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ícone-Sair-Aceso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ícone-Cadastros-de-Acessos-Apagado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ícone-Cadastros-de-Acessos-Aceso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ícone-Cadastros-de-Acessos-Apagado1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ícone-Cadastros-de-Alunos-Aceso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ícone-Cadastros-de-Acessos-Apagado2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ícone-Voltar-Aceso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ícone-Voltar-Apagado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ícone-Cadastros-de-Alunos-Apagado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bola-de-Foto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barras 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-Nome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-Telefone-Residencial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-Cpf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-Número.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-Cep.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-Cidade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-Nascimento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-Estado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-Nascimento1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-Cadastro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-Cadastro1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-Cadastro-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ícone-Voltar-Aceso1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ícone-Voltar-Aceso2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-de-Texto-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-de-Texto-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-de-Texto-51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-de-Texto-52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-de-Texto-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background-9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-de-Texto-71.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-de-Texto-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão-Sair-Completamente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background-10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background-101.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background-102.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-Cadastro3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ícone-Pesquisa-Acessos-Aceso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ícone-Pesquisa-Alunos-Aceso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão Ocultar Senha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão Ocultar Senha Pequeno com Cor2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ícone-Pesquisar-Notas-Frequências-Aceso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\ServiceReference1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReference1\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReference1\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReference1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
